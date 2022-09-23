@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const mysql = require('mysql2');
 const Directory = require("./lib/index.js");
 const api = require('./routes/index.js');
+// const lib = require("./lib/index");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -15,6 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use('/api', api);
+
 
 // Default response for any other request (Not Found)
 app.use((req, res) => {
