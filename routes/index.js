@@ -1,21 +1,20 @@
 const express = require('express');
 const mysql = require('mysql2');
-// const lib = require("../lib/index");
 
 const app = express();
 
 
 // ****************** Connect to database ****************** //
-const db = mysql.createConnection(
-    {
-      host: 'localhost',
-      // MySQL username,
-      user: 'root',
-      password: 'superlame',
-      database: 'store_db'
-    },
-    console.log(`Connected to the store_db database.`)
-);
+// const db = mysql.createConnection(
+//     {
+//       host: 'localhost',
+//       // MySQL username,
+//       user: 'root',
+//       password: 'superlame',
+//       database: 'store_db'
+//     },
+//     console.log(`Connected to the store_db database.`)
+// );
 
 // ********************* Read Routes ********************* //
 // Read all departments
@@ -120,7 +119,6 @@ app.post('/new-employee', ({ body }, res) => {
     });
   });
 });
-
 
 // ********************* Update Route ********************* //
 // todo update an employee role
