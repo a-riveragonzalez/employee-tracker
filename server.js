@@ -23,5 +23,6 @@ app.listen(PORT, () => {
 });
 
 // Start init function
+// init.getDepartmentIDArray();
 init.displayTitle();
 init.menuSelection();
