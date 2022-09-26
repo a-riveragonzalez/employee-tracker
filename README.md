@@ -66,10 +66,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 https://github.com/a-riveragonzalez/employee-tracker
 
 ## Demo Link
-
+https://drive.google.com/file/d/1N-FVWs2oo0b5mAhOsTWy0S7GwCU89LRf/view?usp=sharing
 
 ## Preview
-![]()
+![employee-tracker-gif](employee-tracker.gif)
 
 ## Questions
 If you have any questions, feel free to reach me at : 
